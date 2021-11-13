@@ -1,0 +1,61 @@
+header {
+ width: 1200px;
+ margin: auto;
+ font-family: Abril Fatface;
+ color: #222;
+}
+img {
+  width: 100%;
+}
+main {
+  width: 700px;
+  margin: auto;
+}
+div {
+  width: 700px;
+  margin: auto;
+}
+blockquote::before {
+  content: '”'
+}
+blockquote {
+  width: 700px;
+  margin: auto;
+  background: #222;
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+}
+h2 {
+  font-family: Josefin Sans;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 900;
+}
+h4 {
+  font-family: Merriweather;
+  font-style: italic;
+  font-size: 15px;
+}
+p {
+  font-family: Josefin Sans;
+  color: #222;
+  font-size: 15px;
+}
+li {
+  font-family: Josefin Sans;
+  color: #222;
+  font-size: 16px;
+}
+.Oddelovac {
+  display: flex;
+  height: 3px;
+  width: 720px;
+  background: #222;
+  margin: auto;
+}
